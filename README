@@ -47,7 +47,7 @@ CREATE PACKAGE
           - package/create_tar (line 3, 5 and 8)
           - package/make-deb (line 4 and 6)
 
-   In a terminal, be sure you are in the package directory (cd package).
+   In a terminal, be sure /package/ is the working directory (cd package).
    Then run `mkpackages`
 
    To files must be created or updated :
