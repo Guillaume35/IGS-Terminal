@@ -1,0 +1,3 @@
+#!/bin/bash
+
+python3.2 /usr/share/igsterm/igsterm.py

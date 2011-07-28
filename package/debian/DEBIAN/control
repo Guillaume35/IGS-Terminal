@@ -1,0 +1,10 @@
+Package: igsterm
+Version: 1.0.0beta1
+Architecture: all
+Maintainer: Guillaume Modard <guillaumemodard@gmail.com>
+Depends: bash, python3.2
+Section: net
+Priority: optional
+Installed-Size: 40
+Description: IGS-term is a tool to control Illusion Games Server
+ IGS is a server for online games. IGS-term is a client terminal created to connect/control IGS.

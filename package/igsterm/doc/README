@@ -1,0 +1,54 @@
+* Illusion Interactive *
+* IGS-term
+
+IGS is a server for online games. IGS-term is a client terminal 
+created to connect/control IGS.
+
+Start IGS-term :
+	$ igsterm
+	
+	or
+	
+	$ igst
+
+Quit IGS-term :
+	$ exit
+
+Connect an IGS server :
+	$ igst.connect(host,port)
+
+Disconnect an IGS server :
+	$ exit
+
+Shortcut to server :
+	$ igst.add_server(host,port)
+	Create a new server shortcut
+	
+	$ igst.rm_server(host,port)
+	Remove a server from shortcut list
+	
+	To use a shortcut, enter its number on the
+	IGS command line.
+	Example : 	1. localhost:21
+			2. 192.168.1.10:5412
+			...
+	Enter "1" to connect localhost:21
+
+Other commands :
+	$ igst.ls_servers()
+	Update server list and show the shortcut list
+	
+	$ igst.home_path()
+	Create /.illusion/igsterm in the HOME directory 
+	if not exist.
+	
+	$ igst.init()
+	Re-initialize IGS-term.
+
+Licence command :
+	$ show w
+	Print disclaimenr and warranty on the terminal
+	
+	$ show c
+	Print condition and licence on the terminal
+	

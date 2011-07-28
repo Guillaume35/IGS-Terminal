@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ -f igsterm_1.0.0beta1_all.tar.gz ]
+then
+	rm igsterm_1.0.0beta1_all.tar.gz
+fi
+
+tar -zcvf igsterm_1.0.0beta1_all.tar.gz igsterm/

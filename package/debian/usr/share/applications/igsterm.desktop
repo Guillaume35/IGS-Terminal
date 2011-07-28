@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=IGS-term
+Comment=IGS-term is a client terminal created to connect/control IGS.
+Exec=igsterm
+Terminal=true
+Categories=System;

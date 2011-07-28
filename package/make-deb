@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Removing previous deb files
+if [ -f igsterm_1.0.0beta1_all.deb ]
+then
+	rm igsterm_1.0.0beta1_all.deb
+fi
+
+./create_md5
+
+# Creating deb package
+fakeroot dpkg-deb --build debian
+dpkg-name debian.deb
