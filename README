@@ -1,0 +1,55 @@
+   IGS (Illusion Games Server) is a server for online games. IGS-term is a client 
+   terminal created to connect/control IGS.
+
+   This program is under GNU GPL licence Version 3. See http://www.gnu.org/licenses/ 
+   to read the entire licence.
+
+
+PATH STRUCTURE
+
+   doc/
+          Text file that contain copyright and documentation of IGS-term functions
+
+   package/
+          Debian and archive file to distribute the final program. This folder also 
+          contain shell script to automatically create the .deb and .tar.gz .
+
+   sources/
+          Sources of the program
+
+
+REQUIREMENTS
+
+   This program is developed under Ubuntu 11.04 and Ubuntu 11.10.
+   It is also maintained on Debian 6.
+   Others Linux distributions must be compatible but are not maintained.
+
+   It is not ported to Windows or Mac Os X yet (planned).
+
+   In addition, python 3.2 must be installed (python3.2 package).
+
+
+CREATE PACKAGE
+
+   Copy all files from sources/ to :
+          - package/debian/usr/share/igsterm
+          - package/igsterm
+
+   Copy all files from doc/ to :
+          - package/debian/usr/share/doc/igsterm
+          - package/igsterm/doc
+
+   The program main file must be igsterm.py. If not, you'll have to edit
+   package/debian/usr/bin/igsterm
+
+   If you want to change version number or package name, edit :
+          - package/debian/DEBIAN/control (line 2)
+          - package/create_tar (line 3, 5 and 8)
+          - package/make-deb (line 4 and 6)
+
+   In a terminal, be sure you are in the package directory (cd package).
+   Then run `mkpackages`
+
+   To files must be created or updated :
+          - igsterm_XXXXXX_all.deb
+          - igsterm_XXXXXX_all.tar.gz
