@@ -32,6 +32,32 @@ REQUIREMENTS
    (in development : https://github.com/Guillaume35/Illusion-Games-Server)
 
 
+TEST THE PROGRAM
+
+   To test the program, just download on of the package contained in package/ 
+   directory.
+
+   If you are using Debian based distribution, install the .deb and run igsterm 
+   in a terminal.
+
+   We officially support Ubuntu 11.04, 11.10 and Debian 6.
+
+   If you are using a Linux distribution that not supporting .deb packages, 
+   download .tar.gz file and extract it (for example in /opt/illusion). Then 
+   make sure igsterm shell file is executable and run it from a terminal.
+
+   See README file contained in /usr/share/doc/igsterm to learn commands you can 
+   use in igsterm. (this file is also contained in doc/ of the tar.gz archive).
+
+
+DEVELOP THE PROGRAM
+
+   Program sources are contained in the sources/ directory. You can be involved 
+   in igsterm development in many ways :
+          - Create new functions
+          - Correct language, syntax and expression
+
+
 CREATE PACKAGE
 
    Copy all files from sources/ to :
