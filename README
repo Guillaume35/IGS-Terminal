@@ -28,6 +28,9 @@ REQUIREMENTS
 
    In addition, python 3.2 must be installed (python3.2 package).
 
+   You need an IGS server installed on your network.
+   (in development : https://github.com/Guillaume35/Illusion-Games-Server)
+
 
 CREATE PACKAGE
 
